@@ -1,3 +1,6 @@
+#
+# Script to scrape Yahoo's trending tickers page to find a stock, "purchase it", and notify the user of the price and date of the purchase
+#
 import requests
 from bs4 import BeautifulSoup
 import numpy as np
